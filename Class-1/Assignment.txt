@@ -52,8 +52,11 @@ Using the Async keyword in the script tag makes
 Async and differ can be used to control the flow of a program. Without them, scripts are loaded and executed while parsing HTML documents. The 'async' keyword ensures that script tags in the middle will be loaded with the HTML tag as soon as they're encountered, rather than waiting until after all other code has been parsed at the end.
 
 
+8) React and ReactDOM 
 
+React is a javascript library which is used to to create intercative UI with the prebuilt modules 
 
+ReactDOM is one such feature of the React library it glues the react and DOM together it is used to manpulate the code
 
 
 
