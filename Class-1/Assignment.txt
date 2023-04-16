@@ -1,0 +1,62 @@
+1) What is Emmet? 
+Emmet is an inbuilt tool that comes with the package with the vs code
+Using just abbreviations or small keywords we can write faster code in less time
+Some of the emmet examples are : 
+! —---> provides the boilerplate code of html
+p{“the  man in the jungle”} —-> <p> “the  man in the jungle” </p>
+	
+2) What is CDN? Why do we use it? 
+	A content delivery network device that is set up so that the delivery of the data to the user can be made faster,
+	These are devices that are set up all over the world so that if a user wants to access the data the cdn that is set up nearer to the user's location can be used to deliver the data
+ 
+
+3) What is Cross orgin resource sharing:
+           Before Cross-origin rules were set or created the calling or communication between the two domain were difficult uber.com was not able to access google.com/maps as it was from a different domain and subdomain also
+But by using the cros the domain which wants to talks or want resource the browser will call will be made the resouse sharing domain will check it correct or not then it will respond back to with additional  https links
+so that in future the communication between the two domain can be made easily.
+
+
+4) Why is React known as React? 
+
+    It is called react because it is respond or reacts to the changes made by the user
+	It changes dynamically changes based on the data provided to it and the user interacting with it 
+
+
+5)Difference between a Library and Framework? 
+The library it requires less amount of work that needed to put it in our project
+The library can be considered as a small model or functionality that can be added easily to our code
+
+	Explaining in simpler words:	
+
+Library means they provide with use full tools you have to decide what to do with those like they give the Lego city blocks you have to decide what you want to build with it
+Framework it means what do be built will also be explained 
+
+
+6) What is difference between react.development.js and react.production.js files via CDN? 
+	
+React development.js is used when the developer is creating a project it contains large files and more files compared to the react.production.js {which has more optimized files} to provide  faster acess
+ 
+
+
+7) What is async and defer?
+
+Both are used to control the flow of the program i.e scripts to load and execute
+
+If we don't use async or defer the flow will be as follows the html document is parsed if any of the scripts tags is identified or detected in the middle they are loaded and executed then the remaining code will be phrased
+
+
+
+Using the Async keyword in the script tag makes
+                          When the html is parsed if it encounters the script tag they are loaded with the html tag once they are loaded except at the end praising the html tag
+
+Async and differ can be used to control the flow of a program. Without them, scripts are loaded and executed while parsing HTML documents. The 'async' keyword ensures that script tags in the middle will be loaded with the HTML tag as soon as they're encountered, rather than waiting until after all other code has been parsed at the end.
+
+
+
+
+
+
+
+
+ 
+
