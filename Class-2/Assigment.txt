@@ -1,0 +1,71 @@
+1) what is NPM ?  // nahi patha mujaha
+    The NPM is a node packeage manager but it is not the full form of NPM, as single packeage can't be used to
+    build a whole the projet we require the NPM to manges the several packages
+
+2) what is 'paracel/webpack' : why do we need it?
+
+        the paracel/webpack are the budlers which help to buld and deploye our project
+        
+        * parcel *
+        - it requires zero config
+        - it minifies the code  --- removes the sapces
+        - budeling -- the projects to reduced to two or three files
+        - cacehing  ---- once the project is loaded 
+        - buliding
+        - tree shaking     --- if there is unused packed
+        - remove console log
+        - HMR [hot module replacement] --- the project is automatically reloded every time if there is any change
+        - it gives the port number
+        - time watcher algorithm 
+
+
+3) parcel-cache ?
+
+        it is the space that is acquired by parcel to hold the previous done task
+
+4) what is npx ?
+
+    it npm run  or used to run the npm cmds
+
+
+5) difference b/w dev-dependices and dependices ?
+
+    * the packages that are installed only on local server or devloper server is dev-dependices
+    * the packages that need to be installed in both the local and remote server are dependendis
+
+6) what is .gitignore file? what should we add in it?
+
+    the files names which are mentioned in the .gitignore file will be ignored by the gitignore
+    we should add the packages or files which can be installed in server directly
+
+
+7) what is difference b/w the package.json file and package-lock.json?
+
+    *** package.json is packege that gets installed as soon as the run the code npm init
+       --- the package json contains the dependendis and dev-depensdes that are installed and 
+       other devolpers check it and install the packeges
+
+    *** package-lock.json holds the exact version of the packages that are installed
+
+
+8) why should i not modfiy the package-lock.json?
+
+     the package-lock.json is file that is gentrated and mateded by the npm
+     alter here may create the dependices problem that arise 
+
+
+9) what is node_modules? should you push it to git?
+
+    * it is the heaviest file in our projects 
+    * it is where all the packages that are installed can be seen
+    * as it is heaviest files in the project it should not be pushed to git it installed 
+        by the data avaialable in package.json
+
+10) what are the dist folder?
+
+    * it distribution folder where we keep the distribution or deployment ready files
+
+11) what is browlist?
+    
+        it is package in node_modules installed by the parcel it make the project compactabel to run on the browser
+        if give [ last 10 version of chrome ] it might work on other browser or not definetly work in given version
