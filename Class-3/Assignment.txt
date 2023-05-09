@@ -1,0 +1,22 @@
+1) what is JSX ?
+
+        - it is html like syntax written in javascript
+        - but it is not the html written in javascript
+
+2) what is superpower of JSX ?
+
+        - readablity
+        - matainence of the code
+        - it is secrce from cross site scripting attacks
+
+3) {TitleComponent} v/s {<TitleComplent/>} ?
+
+        - {TittleCompent} is a react element
+        - it is just acts as  varible 
+        
+        --- {TitleCompent} --> createReactElement --> object ----> HTML(DOM)
+
+        *{<Titlecompent />}
+
+        -- it is functional componet 
+        -- it was given birth because as we can't pass the parameters
