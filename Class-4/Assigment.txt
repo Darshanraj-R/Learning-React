@@ -1,0 +1,60 @@
+1) is JSX mandatory in react?
+
+Ans: JSX is not mandatory in react nor ES6 react can exist by JavaScript itself.
+
+2) How can I write Components in JSX ?
+
+Ans : the components in JSX can be written in two ways:
+
+    * class components
+
+     *  Functional components [they are just functions]
+
+**Functional Components:**
+
+const Header = () ⇒ (
+
+)
+
+return can be of two types 
+
+- default
+- normal
+
+3) what is <ReactFragment></ReactFragment> and <></> 
+
+Ans: They are one and the same as react as rule a component can have only one parent element so rather than using the div enclose the tag we use the <> </>
+
+4) What is virtual DOM?
+
+Ans: [**it is a software engineering concept most of them use it not just react**]
+
+   It is a lightweight memory copy of the actual DOM  
+
+5) Reconciliation in React?
+
+Ans: It is an Algorithm that is used in react such that minimum steps required to update the UI as efficiently as possible 
+
+TO DO this task the react uses two things:
+
+- Diffing Algo : it is algorithm which is used to compare the current DOM and tress and makes minimum changes to update the virtual DOM
+
+6) Why do we need keys in React?
+
+Ans: keys in  the elements helps the react to easily render the lists while render the list it becomes very easy to check which elements are added and removed this way the react virtual DOM can be easily updated.
+
+7) why use of the index as key is the last option in react?
+
+Ans: As the index is ordered if any changes in middle whole list as to rendered and there is chance the react might think it the list is stable 
+
+8) what is config Driven UI?
+
+Ans: The UI changes based on the data it is provided telling in the interview that the application is built using the config Driven UI is huge plus.
+
+9) what is props in React? ways to pass it?
+
+Ans: Props → properties [it is a way of sending parameters to the functional component]
+
+10) what is react fiber?
+
+Ans: The react fiber is an updated version of the reconciliation in react 16 version
