@@ -1,0 +1,43 @@
+1) Difference b/w named import and default import and *
+
+Ans : The way access is same different but the import style is different
+
+ 
+
+| Named Import                           | Default Import |
+| ---                                    |      --- |
+| import {Header} from components/header | import Header from components/hearder.js |
+| multiple                                | only one default export can be made |
+|  export Header = () =>                  |  default export Header  |
+
+import * as obj from components
+<obj.Body>
+if all the import can accessed using the * which means all the components can be accessed.
+
+2) what is the importance of config.js ?
+
+Ans: the config.js to used bring the modular
+
+3) what are react hooks?
+
+Ans: React hooks are normal function which has some functionality 
+
+- they were introduced in functional components to avoid the components life-cycle
+
+4) what is useState Hooks ?
+
+Ans: 
+
+- it is like a react variable
+- it contains array of value were the first value is the name of the
+- Variables changing does not change the way change in normal js
+
+```jsx
+
+const [variable,setVariable] = useState("defalut value");
+
+//default value and mentioned or left blank
+```
+
+- useState return array of variables were first array is the name of the array and the second name is the function which can be used to update the variable.
+- arr[1] is a function that is used to change the variable
