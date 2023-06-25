@@ -1,0 +1,47 @@
+
+1) MicroServies’
+
+- It provides the separation of concern [SOC]
+- Mulitple repos are maintained for each service they are providing
+- Example: API, UI, authorization, logs, notification
+
+2) Monolithic 
+
+- Single repo is maintained
+- Single architecture
+- every new update takes the whole project to restart
+- A small bug can crash the website
+- Detecting the problem is difficult
+
+3) useEffect hook
+
+- it is a simple JavaScript function
+- used when fecthing an API
+
+What is Shimmer UI?
+
+Ans: the Shimmer UI is the ui which will be shown before the actual UI is shown.
+    Beause * it takes time to fectch the data like media files
+            * just shown the empty UI is better to shown the Shimmer ui so that people can execpt ui
+            * it is better user experpersience
+
+What is the difference between JS expression and JS statement
+
+Ans:  JS expression             |  JS statement
+    ------------------------------------------------------------------------------------------------
+    Singl line                  |  Multiple line
+    can be used in {}           |  can't be used in {}
+    example:                    | example:cont a = 10
+     {console.log("Hello)}      |        console.log("Hello)
+
+     {(a=10,console.log(a));}
+
+What is Optional Chaining?
+
+Ans: it used like if data in json go forward then name and then value
+    * avoids the error caused due to missing of values, or if values are null
+
+example : json.data?.data?.name?.value
+
+
+What is CORS?
