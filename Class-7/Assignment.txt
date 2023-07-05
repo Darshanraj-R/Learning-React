@@ -1,0 +1,61 @@
+1) what is SPA?
+
+Ans: 
+
+Single Page Application (SPA): The whole page is not reloaded whenever you navigate on the page only the required part of the page is updated.
+
+- [ ]  
+- Advantages:
+    - User Experience
+    - Unnecessary reloading is stoped
+    - Server round trips are reduced
+
+- Disadvantages:
+    - initial loading is required
+
+2)How will use effect behave if we don't add a dependency array?
+
+Ans: when you don’t add the dependency array use effect will be called on every render.
+
+3)What would happen if we do console.log(useState())?
+
+Ans: it will show (undefined,f), as we have not defined anything in the bracket.
+
+but if we mention anything in the basket it will be displayed in the undefined place
+
+4)What are various ways to add images to our App? Explain with code examples.
+
+Ans:
+
+- Using the <img src”https://thewateringhole.in/wp-content/uploads/2022/07/watering_hole-removebg-preview.png” />
+- Using the
+
+ 
+
+```js
+.header{
+background-image: URL(”https://thewateringhole.in/wp-content/uploads/2022/07/watering_hole-removebg-preview.png”);
+}
+```
+
+        
+
+- Using the
+
+```js
+import imgLink from '../Assets/Components';
+
+const Header = () =>{
+     return(
+			 <img src={imgLink} />
+       );
+}
+```
+
+5) What is difference between Client Side Routing and Server Side Routing?
+
+Ans: 
+
+Client side Routing loads the initial page is loaded from the Server and then only the changes are updated 
+
+Server-Side Routing loads the every pages fetched from Server.
