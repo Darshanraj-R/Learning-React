@@ -1,0 +1,260 @@
+/* #container{
+    background-color: bisque;
+    background-color: green;
+} */
+body{
+    padding: 0px;
+    margin: 0;
+    
+}
+
+#headContainer{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background-color: #777777bb;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+#headerLeft img{
+   width: 100px;
+  
+}
+
+#headerRight a{
+  
+  text-decoration: none;
+  color: #03e8fd;
+}
+
+#headerRight{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right: 13px;
+}
+
+#headerRight div {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #edff26;
+    
+  }
+
+
+  .bodyContainer{
+    align-items: center;
+   
+    width: 255px;
+    height: 270px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 6px;
+    background-color: #f9f9f9;
+    margin:10px;
+    opacity: 1;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 16px 28px, rgba(0, 0, 0, 0.441) 0px 10px 10px;
+  }
+
+  .bodyContainer:hover{
+    
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+    transition: all 0.1s ease-in 0s;
+  }
+
+  .Body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: rgba(244, 244, 244, 0.212);
+  }
+
+
+  .bodyContainer img{
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .bodyContainer img :hover{
+    width: 85%;
+    transition: all 0.1s ease-in 0s;
+  
+  }
+   
+ 
+
+
+
+  .foodName{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 24px;
+    font-weight: 39px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+  }
+
+
+  .cuisineName{
+    font-family: "Basis Grotesque Pro";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+  }
+  #headerCenter{
+    background-color: aquamarine;
+    border-radius: 4px;
+    color: #373920;
+  }
+
+  
+
+
+  .icons{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+
+  /* Footer Styles */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 40px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-social ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-social ul li a {
+    color: #f7f7f7;
+    font-size: 18px;
+  }
+  
+   .footer-bottom {
+    background-color: #333;
+    color: #f8f8f8;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+   
+  }
+  
+  .footer-bottom p a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+
+  Caroussel img{
+    width: 100%;
+    height: 20%;
+  }
+
+  input .input{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #menuCard{
+    padding-right: 220px;
+    padding-left: 220px;
+    
+
+  }
+  
+  .itemCard{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+   justify-content:space-between;
+   margin: 2px ;
+   border-top: 2px dashed rgba(0, 0, 0, 0.559);
+  }
+
+
+  .itemImg{
+      width : 200px;
+     
+  }
+
+
+  .input-container{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+  }
+
+  .input-container .input1{
+    align-items: center;
+    justify-content: center;
+             width: 80%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            
+            margin:5px;
+           
+  }
